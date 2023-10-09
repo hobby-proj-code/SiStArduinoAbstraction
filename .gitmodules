@@ -1,0 +1,3 @@
+[submodule "ArduinoAbstractionExample/ArduinoAbstraction"]
+	path = ArduinoAbstractionExample/ArduinoAbstraction
+	url = https://github.com/hobby-proj-code/ArduinoAbstraction

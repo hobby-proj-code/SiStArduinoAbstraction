@@ -1,0 +1,251 @@
+15:55:24 **** Incremental Build of configuration GNU ARM v10.2.1 - Debug for project ArduinoAbstractionExample ****
+make -j8 all 
+Building file: ../ThirdParty/SI7021/SI7021.cpp
+Building file: ../ArduinoAbstraction/ArduinoMain.cpp
+Building file: ../ArduinoAbstraction/EFR32Variant.cpp
+Building file: ../ArduinoAbstraction/VendorCode.cpp
+Invoking: GNU ARM C++ Compiler
+Invoking: GNU ARM C++ Compiler
+arm-none-eabi-g++ -g -gdwarf-2 -mcpu=cortex-m33 -mthumb -std=c++11 '-DDEBUG=1' '-DARDUINO=101' '-DDEBUG_EFM=1' '-DEFR32MG24B310F1536IM48=1' '-DSL_BOARD_NAME="BRD2601B"' '-DSL_BOARD_REV="A01"' '-DSL_COMPONENT_CATALOG_PRESENT=1' -I"D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\config" -I"D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction" -I"D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\autogen" -I"D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/Device/SiliconLabs/EFR32MG24/Include" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/common/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//hardware/board/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/CMSIS/Include" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/device_init/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/emlib/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/emlib/host/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/iostream/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_eusart" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/peripheral/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/common/toolchain/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/system/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/sleeptimer/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/udelay/inc" -Os -Wall -Wextra -mno-sched-prolog -fno-builtin -ffunction-sections -fdata-sections -imacrossl_gcc_preinclude.h -mfpu=fpv5-sp-d16 -mfloat-abi=hard -fno-rtti -fno-exceptions -c -fmessage-length=0 -MMD -MP -MF"ThirdParty/SI7021/SI7021.d" -MT"ThirdParty/SI7021/SI7021.o" -o "ThirdParty/SI7021/SI7021.o" "../ThirdParty/SI7021/SI7021.cpp"
+Invoking: GNU ARM C++ Compiler
+arm-none-eabi-g++ -g -gdwarf-2 -mcpu=cortex-m33 -mthumb -std=c++11 '-DDEBUG=1' '-DARDUINO=101' '-DDEBUG_EFM=1' '-DEFR32MG24B310F1536IM48=1' '-DSL_BOARD_NAME="BRD2601B"' '-DSL_BOARD_REV="A01"' '-DSL_COMPONENT_CATALOG_PRESENT=1' -I"D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\config" -I"D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction" -I"D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\autogen" -I"D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/Device/SiliconLabs/EFR32MG24/Include" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/common/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//hardware/board/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/CMSIS/Include" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/device_init/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/emlib/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/emlib/host/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/iostream/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_eusart" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/peripheral/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/common/toolchain/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/system/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/sleeptimer/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/udelay/inc" -Os -Wall -Wextra -mno-sched-prolog -fno-builtin -ffunction-sections -fdata-sections -imacrossl_gcc_preinclude.h -mfpu=fpv5-sp-d16 -mfloat-abi=hard -fno-rtti -fno-exceptions -c -fmessage-length=0 -MMD -MP -MF"ArduinoAbstraction/EFR32Variant.d" -MT"ArduinoAbstraction/EFR32Variant.o" -o "ArduinoAbstraction/EFR32Variant.o" "../ArduinoAbstraction/EFR32Variant.cpp"
+Invoking: GNU ARM C++ Compiler
+arm-none-eabi-g++ -g -gdwarf-2 -mcpu=cortex-m33 -mthumb -std=c++11 '-DDEBUG=1' '-DARDUINO=101' '-DDEBUG_EFM=1' '-DEFR32MG24B310F1536IM48=1' '-DSL_BOARD_NAME="BRD2601B"' '-DSL_BOARD_REV="A01"' '-DSL_COMPONENT_CATALOG_PRESENT=1' -I"D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\config" -I"D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction" -I"D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\autogen" -I"D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/Device/SiliconLabs/EFR32MG24/Include" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/common/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//hardware/board/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/CMSIS/Include" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/device_init/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/emlib/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/emlib/host/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/iostream/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_eusart" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/peripheral/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/common/toolchain/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/system/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/sleeptimer/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/udelay/inc" -Os -Wall -Wextra -mno-sched-prolog -fno-builtin -ffunction-sections -fdata-sections -imacrossl_gcc_preinclude.h -mfpu=fpv5-sp-d16 -mfloat-abi=hard -fno-rtti -fno-exceptions -c -fmessage-length=0 -MMD -MP -MF"ArduinoAbstraction/ArduinoMain.d" -MT"ArduinoAbstraction/ArduinoMain.o" -o "ArduinoAbstraction/ArduinoMain.o" "../ArduinoAbstraction/ArduinoMain.cpp"
+arm-none-eabi-g++ -g -gdwarf-2 -mcpu=cortex-m33 -mthumb -std=c++11 '-DDEBUG=1' '-DARDUINO=101' '-DDEBUG_EFM=1' '-DEFR32MG24B310F1536IM48=1' '-DSL_BOARD_NAME="BRD2601B"' '-DSL_BOARD_REV="A01"' '-DSL_COMPONENT_CATALOG_PRESENT=1' -I"D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\config" -I"D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction" -I"D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\autogen" -I"D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/Device/SiliconLabs/EFR32MG24/Include" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/common/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//hardware/board/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/CMSIS/Include" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/device_init/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/emlib/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/emlib/host/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/iostream/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_eusart" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/peripheral/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/common/toolchain/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/system/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/sleeptimer/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/udelay/inc" -Os -Wall -Wextra -mno-sched-prolog -fno-builtin -ffunction-sections -fdata-sections -imacrossl_gcc_preinclude.h -mfpu=fpv5-sp-d16 -mfloat-abi=hard -fno-rtti -fno-exceptions -c -fmessage-length=0 -MMD -MP -MF"ArduinoAbstraction/VendorCode.d" -MT"ArduinoAbstraction/VendorCode.o" -o "ArduinoAbstraction/VendorCode.o" "../ArduinoAbstraction/VendorCode.cpp"
+Building file: ../main.cpp
+Invoking: GNU ARM C++ Compiler
+arm-none-eabi-g++ -g -gdwarf-2 -mcpu=cortex-m33 -mthumb -std=c++11 '-DDEBUG=1' '-DARDUINO=101' '-DDEBUG_EFM=1' '-DEFR32MG24B310F1536IM48=1' '-DSL_BOARD_NAME="BRD2601B"' '-DSL_BOARD_REV="A01"' '-DSL_COMPONENT_CATALOG_PRESENT=1' -I"D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\config" -I"D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction" -I"D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\autogen" -I"D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/Device/SiliconLabs/EFR32MG24/Include" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/common/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//hardware/board/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/CMSIS/Include" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/device_init/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/emlib/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/emlib/host/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/iostream/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_eusart" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/peripheral/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/common/toolchain/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/system/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/sleeptimer/inc" -I"C:/Users/aditayagarg/SimplicityStudio/SDKs/gecko_sdk//platform/service/udelay/inc" -Os -Wall -Wextra -mno-sched-prolog -fno-builtin -ffunction-sections -fdata-sections -imacrossl_gcc_preinclude.h -mfpu=fpv5-sp-d16 -mfloat-abi=hard -fno-rtti -fno-exceptions -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../ThirdParty/SI7021/SI7021.h:12,
+                 from ../ThirdParty/SI7021/SI7021.cpp:11:
+D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/Arduino.h:20: warning: "ARDUINO" redefined
+   20 | #define ARDUINO 100
+      | 
+<command-line>: note: this is the location of the previous definition
+In file included from ../ArduinoAbstraction/EFR32Variant.h:14,
+                 from ../ArduinoAbstraction/EFR32Variant.cpp:1:
+../ArduinoAbstraction/Wire.h: In constructor 'I2C::I2C(I2CPort)':
+../ArduinoAbstraction/Wire.h:83:97: warning: base 'I2CSlave' will be initialized after [-Wreorder]
+   83 |     I2C(I2CPort port): I2CMasterRead(port), I2CMasterWrite(port), I2CSlave(port), I2CCommon(port) {}
+      |                                                                                                 ^
+../ArduinoAbstraction/Wire.h:83:97: warning:   base 'I2CCommon' [-Wreorder]
+../ArduinoAbstraction/Wire.h:83:5: warning:   when initialized here [-Wreorder]
+   83 |     I2C(I2CPort port): I2CMasterRead(port), I2CMasterWrite(port), I2CSlave(port), I2CCommon(port) {}
+      |     ^~~
+In file included from ../ArduinoAbstraction/EFR32Variant.h:21,
+                 from ../ArduinoAbstraction/EFR32Variant.cpp:1:
+../ArduinoAbstraction/SPI.h: In member function 'virtual void SPINonInterrupt::usingInterrupt(int)':
+../ArduinoAbstraction/SPI.h:42:35: warning: unused parameter 'interruptNumber' [-Wunused-parameter]
+   42 |   virtual void usingInterrupt(int interruptNumber){}
+      |                               ~~~~^~~~~~~~~~~~~~~
+../ArduinoAbstraction/SPI.h: In member function 'virtual void SPINonInterrupt::notUsingInterrupt(int)':
+../ArduinoAbstraction/SPI.h:43:38: warning: unused parameter 'interruptNumber' [-Wunused-parameter]
+   43 |   virtual void notUsingInterrupt(int interruptNumber){}
+      |                                  ~~~~^~~~~~~~~~~~~~~
+In file included from ../ArduinoAbstraction/ArduinoMain.h:11,
+                 from ../ArduinoAbstraction/ArduinoMain.cpp:9:
+../ArduinoAbstraction/Arduino.h:20: warning: "ARDUINO" redefined
+   20 | #define ARDUINO 100
+      | 
+<command-line>: note: this is the location of the previous definition
+In file included from D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/EFR32Variant.h:14,
+                 from D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/Arduino.h:12,
+                 from ../ThirdParty/SI7021/SI7021.h:12,
+                 from ../ThirdParty/SI7021/SI7021.cpp:11:
+D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/Wire.h: In constructor 'I2C::I2C(I2CPort)':
+D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/Wire.h:83:97: warning: base 'I2CSlave' will be initialized after [-Wreorder]
+   83 |     I2C(I2CPort port): I2CMasterRead(port), I2CMasterWrite(port), I2CSlave(port), I2CCommon(port) {}
+      |                                                                                                 ^
+D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/Wire.h:83:97: warning:   base 'I2CCommon' [-Wreorder]
+D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/Wire.h:83:5: warning:   when initialized here [-Wreorder]
+   83 |     I2C(I2CPort port): I2CMasterRead(port), I2CMasterWrite(port), I2CSlave(port), I2CCommon(port) {}
+      |     ^~~
+In file included from D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/EFR32Variant.h:21,
+                 from D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/Arduino.h:12,
+                 from ../ThirdParty/SI7021/SI7021.h:12,
+                 from ../ThirdParty/SI7021/SI7021.cpp:11:
+D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/SPI.h: In member function 'virtual void SPINonInterrupt::usingInterrupt(int)':
+D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/SPI.h:42:35: warning: unused parameter 'interruptNumber' [-Wunused-parameter]
+   42 |   virtual void usingInterrupt(int interruptNumber){}
+      |                               ~~~~^~~~~~~~~~~~~~~
+D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/SPI.h: In member function 'virtual void SPINonInterrupt::notUsingInterrupt(int)':
+D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/SPI.h:43:38: warning: unused parameter 'interruptNumber' [-Wunused-parameter]
+   43 |   virtual void notUsingInterrupt(int interruptNumber){}
+      |                                  ~~~~^~~~~~~~~~~~~~~
+In file included from ../ArduinoAbstraction/VendorCode.cpp:9:
+../ArduinoAbstraction/Arduino.h:20: warning: "ARDUINO" redefined
+   20 | #define ARDUINO 100
+      | 
+<command-line>: note: this is the location of the previous definition
+In file included from ../main.cpp:1:
+D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/Arduino.h:20: warning: "ARDUINO" redefined
+   20 | #define ARDUINO 100
+      | 
+<command-line>: note: this is the location of the previous definition
+In file included from ../ArduinoAbstraction/EFR32Variant.h:14,
+                 from ../ArduinoAbstraction/Arduino.h:12,
+                 from ../ArduinoAbstraction/ArduinoMain.h:11,
+                 from ../ArduinoAbstraction/ArduinoMain.cpp:9:
+../ArduinoAbstraction/Wire.h: In constructor 'I2C::I2C(I2CPort)':
+../ArduinoAbstraction/Wire.h:83:97: warning: base 'I2CSlave' will be initialized after [-Wreorder]
+   83 |     I2C(I2CPort port): I2CMasterRead(port), I2CMasterWrite(port), I2CSlave(port), I2CCommon(port) {}
+      |                                                                                                 ^
+../ArduinoAbstraction/Wire.h:83:97: warning:   base 'I2CCommon' [-Wreorder]
+../ArduinoAbstraction/Wire.h:83:5: warning:   when initialized here [-Wreorder]
+   83 |     I2C(I2CPort port): I2CMasterRead(port), I2CMasterWrite(port), I2CSlave(port), I2CCommon(port) {}
+      |     ^~~
+In file included from ../ArduinoAbstraction/EFR32Variant.h:21,
+                 from ../ArduinoAbstraction/Arduino.h:12,
+                 from ../ArduinoAbstraction/ArduinoMain.h:11,
+                 from ../ArduinoAbstraction/ArduinoMain.cpp:9:
+../ArduinoAbstraction/SPI.h: In member function 'virtual void SPINonInterrupt::usingInterrupt(int)':
+../ArduinoAbstraction/SPI.h:42:35: warning: unused parameter 'interruptNumber' [-Wunused-parameter]
+   42 |   virtual void usingInterrupt(int interruptNumber){}
+      |                               ~~~~^~~~~~~~~~~~~~~
+../ArduinoAbstraction/SPI.h: In member function 'virtual void SPINonInterrupt::notUsingInterrupt(int)':
+../ArduinoAbstraction/SPI.h:43:38: warning: unused parameter 'interruptNumber' [-Wunused-parameter]
+   43 |   virtual void notUsingInterrupt(int interruptNumber){}
+      |                                  ~~~~^~~~~~~~~~~~~~~
+In file included from D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/EFR32Variant.h:14,
+                 from D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/Arduino.h:12,
+                 from ../main.cpp:1:
+D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/Wire.h: In constructor 'I2C::I2C(I2CPort)':
+D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/Wire.h:83:97: warning: base 'I2CSlave' will be initialized after [-Wreorder]
+   83 |     I2C(I2CPort port): I2CMasterRead(port), I2CMasterWrite(port), I2CSlave(port), I2CCommon(port) {}
+      |                                                                                                 ^
+D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/Wire.h:83:97: warning:   base 'I2CCommon' [-Wreorder]
+D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/Wire.h:83:5: warning:   when initialized here [-Wreorder]
+   83 |     I2C(I2CPort port): I2CMasterRead(port), I2CMasterWrite(port), I2CSlave(port), I2CCommon(port) {}
+      |     ^~~
+In file included from D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/EFR32Variant.h:21,
+                 from D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/Arduino.h:12,
+                 from ../main.cpp:1:
+D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/SPI.h: In member function 'virtual void SPINonInterrupt::usingInterrupt(int)':
+D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/SPI.h:42:35: warning: unused parameter 'interruptNumber' [-Wunused-parameter]
+   42 |   virtual void usingInterrupt(int interruptNumber){}
+      |                               ~~~~^~~~~~~~~~~~~~~
+D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/SPI.h: In member function 'virtual void SPINonInterrupt::notUsingInterrupt(int)':
+D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\ArduinoAbstraction/SPI.h:43:38: warning: unused parameter 'interruptNumber' [-Wunused-parameter]
+   43 |   virtual void notUsingInterrupt(int interruptNumber){}
+      |                                  ~~~~^~~~~~~~~~~~~~~
+Finished building: ../main.cpp
+Finished building: ../ArduinoAbstraction/EFR32Variant.cpp
+Finished building: ../ArduinoAbstraction/ArduinoMain.cpp
+ 
+ 
+Finished building: ../ThirdParty/SI7021/SI7021.cpp
+ 
+ 
+In file included from ../ArduinoAbstraction/EFR32Variant.h:14,
+                 from ../ArduinoAbstraction/Arduino.h:12,
+                 from ../ArduinoAbstraction/VendorCode.cpp:9:
+../ArduinoAbstraction/Wire.h: In constructor 'I2C::I2C(I2CPort)':
+../ArduinoAbstraction/Wire.h:83:97: warning: base 'I2CSlave' will be initialized after [-Wreorder]
+   83 |     I2C(I2CPort port): I2CMasterRead(port), I2CMasterWrite(port), I2CSlave(port), I2CCommon(port) {}
+      |                                                                                                 ^
+../ArduinoAbstraction/Wire.h:83:97: warning:   base 'I2CCommon' [-Wreorder]
+../ArduinoAbstraction/Wire.h:83:5: warning:   when initialized here [-Wreorder]
+   83 |     I2C(I2CPort port): I2CMasterRead(port), I2CMasterWrite(port), I2CSlave(port), I2CCommon(port) {}
+      |     ^~~
+In file included from ../ArduinoAbstraction/EFR32Variant.h:21,
+                 from ../ArduinoAbstraction/Arduino.h:12,
+                 from ../ArduinoAbstraction/VendorCode.cpp:9:
+../ArduinoAbstraction/SPI.h: In member function 'virtual void SPINonInterrupt::usingInterrupt(int)':
+../ArduinoAbstraction/SPI.h:42:35: warning: unused parameter 'interruptNumber' [-Wunused-parameter]
+   42 |   virtual void usingInterrupt(int interruptNumber){}
+      |                               ~~~~^~~~~~~~~~~~~~~
+../ArduinoAbstraction/SPI.h: In member function 'virtual void SPINonInterrupt::notUsingInterrupt(int)':
+../ArduinoAbstraction/SPI.h:43:38: warning: unused parameter 'interruptNumber' [-Wunused-parameter]
+   43 |   virtual void notUsingInterrupt(int interruptNumber){}
+      |                                  ~~~~^~~~~~~~~~~~~~~
+../ArduinoAbstraction/VendorCode.cpp: In function 'void detachInterrupt(int)':
+../ArduinoAbstraction/VendorCode.cpp:209:56: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+  209 |   for(int interruptNumCounter = 0; interruptNumCounter < sizeof(InterruptNumberToPinNumberMap); interruptNumCounter++)
+      |                                    ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../ArduinoAbstraction/VendorCode.cpp: In function 'void irqHandler(InterruptHandlerType)':
+../ArduinoAbstraction/VendorCode.cpp:246:31: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+  246 |           interruptNumCounter < sizeof(InterruptNumberToPinNumberMap);
+      |           ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../ArduinoAbstraction/VendorCode.cpp: In function 'bool deInitI2C(int)':
+../ArduinoAbstraction/VendorCode.cpp:287:7: warning: variable 'routeArray' set but not used [-Wunused-but-set-variable]
+  287 |   int routeArray = 0;
+      |       ^~~~~~~~~~
+../ArduinoAbstraction/VendorCode.cpp:288:20: warning: unused variable 'i2cInit' [-Wunused-variable]
+  288 |   I2C_Init_TypeDef i2cInit;
+      |                    ^~~~~~~
+../ArduinoAbstraction/VendorCode.cpp:312:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  312 | }
+      | ^
+../ArduinoAbstraction/VendorCode.cpp: In function 'int i2cRecvBuffer(int, uint8_t, uint8_t*, int, int)':
+../ArduinoAbstraction/VendorCode.cpp:420:8: warning: unused variable 'stMillis' [-Wunused-variable]
+  420 |   auto stMillis = millis();
+      |        ^~~~~~~~
+../ArduinoAbstraction/VendorCode.cpp:404:79: warning: unused parameter 'timeout' [-Wunused-parameter]
+  404 | int i2cRecvBuffer(int port, uint8_t address, uint8_t* buffer,int buffLen, int timeout)
+      |                                                                           ~~~~^~~~~~~
+../ArduinoAbstraction/VendorCode.cpp: In function 'int i2cTrasBuffer(int, uint8_t, uint8_t*, int, int)':
+../ArduinoAbstraction/VendorCode.cpp:441:8: warning: unused variable 'stMillis' [-Wunused-variable]
+  441 |   auto stMillis = millis();
+      |        ^~~~~~~~
+../ArduinoAbstraction/VendorCode.cpp:429:79: warning: unused parameter 'timeout' [-Wunused-parameter]
+  429 | int i2cTrasBuffer(int port, uint8_t address, uint8_t* buffer,int buffLen, int timeout)
+      |                                                                           ~~~~^~~~~~~
+../ArduinoAbstraction/VendorCode.cpp: In function 'bool deInitUART(int)':
+../ArduinoAbstraction/VendorCode.cpp:458:7: warning: unused variable 'routeArray' [-Wunused-variable]
+  458 |   int routeArray = 1;
+      |       ^~~~~~~~~~
+../ArduinoAbstraction/VendorCode.cpp:471:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  471 | }
+      | ^
+../ArduinoAbstraction/VendorCode.cpp: In function 'int uartRecvBuffer(int, uint8_t*, int, int)':
+../ArduinoAbstraction/VendorCode.cpp:524:30: warning: comparison of integer expressions of different signedness: 'long unsigned int' and 'int' [-Wsign-compare]
+  524 |   while((millis() - stMillis < timeout) && (buffLen - charReceived) <= 0)
+      |          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+../ArduinoAbstraction/VendorCode.cpp: In function 'int uartTrasBuffer(int, uint8_t*, int, int)':
+../ArduinoAbstraction/VendorCode.cpp:536:63: warning: unused parameter 'timeout' [-Wunused-parameter]
+  536 | int uartTrasBuffer(int port, uint8_t* buffer,int buffLen, int timeout)
+      |                                                           ~~~~^~~~~~~
+Finished building: ../ArduinoAbstraction/VendorCode.cpp
+ 
+Building target: ArduinoAbstractionExample.axf
+Invoking: GNU ARM C++ Linker
+arm-none-eabi-g++ -g -gdwarf-2 -mcpu=cortex-m33 -mthumb -T "D:\SimplicityStudio\SiStArduinoAbstraction\ArduinoAbstractionExample\autogen\linkerfile.ld" --specs=nosys.specs -Xlinker --gc-sections -Xlinker -Map="ArduinoAbstractionExample.map" -mfpu=fpv5-sp-d16 -mfloat-abi=hard --specs=nano.specs -o ArduinoAbstractionExample.axf -Wl,--start-group "./ArduinoAbstraction/ArduinoCore-API/api/Common.o" "./ArduinoAbstraction/ArduinoCore-API/api/IPAddress.o" "./ArduinoAbstraction/ArduinoCore-API/api/PluggableUSB.o" "./ArduinoAbstraction/ArduinoCore-API/api/Print.o" "./ArduinoAbstraction/ArduinoCore-API/api/Stream.o" "./ArduinoAbstraction/ArduinoCore-API/api/String.o" "./ArduinoAbstraction/ArduinoMain.o" "./ArduinoAbstraction/EFR32Variant.o" "./ArduinoAbstraction/SPI.o" "./ArduinoAbstraction/StandarLibrary.o" "./ArduinoAbstraction/Uart.o" "./ArduinoAbstraction/UsbUart.o" "./ArduinoAbstraction/VendorCode.o" "./ArduinoAbstraction/Wire.o" "./ArduinoAbstraction/pgmspace.o" "./ArduinoAbstraction/xg24dk2601b.o" "./ArduinoAbstraction/xg24ek2703b.o" "./ThirdParty/SI7021/SI7021.o" "./autogen/sl_board_default_init.o" "./autogen/sl_device_init_clocks.o" "./autogen/sl_event_handler.o" "./autogen/sl_iostream_handles.o" "./autogen/sl_iostream_init_eusart_instances.o" "./gecko_sdk_4.0.2/hardware/board/src/sl_board_control_gpio.o" "./gecko_sdk_4.0.2/hardware/board/src/sl_board_init.o" "./gecko_sdk_4.0.2/hardware/driver/mx25_flash_shutdown/src/sl_mx25_flash_shutdown_eusart/sl_mx25_flash_shutdown.o" "./gecko_sdk_4.0.2/platform/Device/SiliconLabs/EFR32MG24/Source/GCC/startup_efr32mg24.o" "./gecko_sdk_4.0.2/platform/Device/SiliconLabs/EFR32MG24/Source/system_efr32mg24.o" "./gecko_sdk_4.0.2/platform/common/src/sl_slist.o" "./gecko_sdk_4.0.2/platform/common/toolchain/src/sl_memory.o" "./gecko_sdk_4.0.2/platform/emlib/src/em_assert.o" "./gecko_sdk_4.0.2/platform/emlib/src/em_burtc.o" "./gecko_sdk_4.0.2/platform/emlib/src/em_cmu.o" "./gecko_sdk_4.0.2/platform/emlib/src/em_core.o" "./gecko_sdk_4.0.2/platform/emlib/src/em_emu.o" "./gecko_sdk_4.0.2/platform/emlib/src/em_eusart.o" "./gecko_sdk_4.0.2/platform/emlib/src/em_gpio.o" "./gecko_sdk_4.0.2/platform/emlib/src/em_i2c.o" "./gecko_sdk_4.0.2/platform/emlib/src/em_system.o" "./gecko_sdk_4.0.2/platform/peripheral/src/peripheral_sysrtc.o" "./gecko_sdk_4.0.2/platform/service/device_init/src/sl_device_init_dcdc_s2.o" "./gecko_sdk_4.0.2/platform/service/device_init/src/sl_device_init_emu_s2.o" "./gecko_sdk_4.0.2/platform/service/device_init/src/sl_device_init_hfxo_s2.o" "./gecko_sdk_4.0.2/platform/service/device_init/src/sl_device_init_lfxo_s2.o" "./gecko_sdk_4.0.2/platform/service/device_init/src/sl_device_init_nvic.o" "./gecko_sdk_4.0.2/platform/service/iostream/src/sl_iostream.o" "./gecko_sdk_4.0.2/platform/service/iostream/src/sl_iostream_eusart.o" "./gecko_sdk_4.0.2/platform/service/iostream/src/sl_iostream_uart.o" "./gecko_sdk_4.0.2/platform/service/sleeptimer/src/sl_sleeptimer.o" "./gecko_sdk_4.0.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_burtc.o" "./gecko_sdk_4.0.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_sysrtc.o" "./gecko_sdk_4.0.2/platform/service/system/src/sl_system_init.o" "./gecko_sdk_4.0.2/platform/service/system/src/sl_system_process_action.o" "./gecko_sdk_4.0.2/platform/service/udelay/src/sl_udelay.o" "./gecko_sdk_4.0.2/platform/service/udelay/src/sl_udelay_armv6m_gcc.o" "./main.o" -lstdc++ -lgcc -lc -lm -lnosys -Wl,--end-group -Wl,--start-group -lgcc -lc -lnosys -Wl,--end-group
+Finished building target: ArduinoAbstractionExample.axf
+ 
+Building hex file: ArduinoAbstractionExample.hex
+arm-none-eabi-objcopy -O ihex "ArduinoAbstractionExample.axf" "ArduinoAbstractionExample.hex"
+ 
+Building bin file: ArduinoAbstractionExample.bin
+arm-none-eabi-objcopy -O binary "ArduinoAbstractionExample.axf" "ArduinoAbstractionExample.bin"
+ 
+Building s37 file: ArduinoAbstractionExample.s37
+arm-none-eabi-objcopy -O srec "ArduinoAbstractionExample.axf" "ArduinoAbstractionExample.s37"
+ 
+Running size tool
+arm-none-eabi-size "ArduinoAbstractionExample.axf" -A
+ArduinoAbstractionExample.axf  :
+section             size        addr
+.text              23460   134217728
+.ARM.exidx             8   134241188
+.stack              4096   536870912
+.data                164   536875008
+.bss                 948   536875172
+.heap             256936   536876120
+.ARM.attributes       54           0
+.comment              77           0
+.debug_info       321192           0
+.debug_abbrev      34614           0
+.debug_loc         71484           0
+.debug_aranges      4528           0
+.debug_ranges       7456           0
+.debug_line        76231           0
+.debug_str         67584           0
+.debug_frame       13756           0
+.stab                 48           0
+.stabstr             441           0
+Total             883077
+
+
+ 
+
+15:55:30 Build Finished. 0 errors, 42 warnings. (took 6s.4ms)
+
