@@ -16,7 +16,8 @@ to
 1. Clone repository.
 2. Open Repository folder as workspace.
 3. Validate all the required dependencies are installed like SDK etc.
-4. Compile and flash. You will be able to see the Temprature and Humidity in Serial output.
+4. Perform ArduinoAbstraction changes as above.
+5. Compile and flash. You will be able to see the Temprature and Humidity in Serial output.
 
 # Output
 Below is the output
